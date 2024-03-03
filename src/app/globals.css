@@ -1,0 +1,37 @@
+.mainSection {
+  margin: 15px 20px;
+}
+
+.cardSectionMain {
+  display: flex;
+  flex-wrap: wrap;
+  margin: calc(calc(1rem * 1) / -2);
+  width: calc(100% + (calc(1rem * 1)));
+  align-items: flex-end; /* Align items to the bottom */
+}
+
+.cardSection {
+  max-width: 25%;
+  padding: calc(calc(1rem * 1) / 2);
+}
+
+a {
+  color: #868e96 !important;
+  font-size: 1rem !important;
+}
+
+.imageLink {
+  text-align: center;
+}
+
+.imageSection {
+  border-radius: 50%;
+}
+
+
+@media (max-width: 768px) {
+  .cardSection {
+    max-width: 100%;
+    padding-left: 55px;
+  }
+}
